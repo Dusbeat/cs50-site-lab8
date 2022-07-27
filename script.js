@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(){
             document.querySelector('#feedback').innerHTML = "Logado com sucesso"
             alert("Logado com sucesso!")
 
-            window.location.href = "file:///home/luisfelipebarbosa/C%C3%B3digos/CS50/pset8/homepage/filmes.html"
+            window.location.href = "./filmes.html"
 
         }
         else
