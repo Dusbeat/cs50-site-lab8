@@ -1,0 +1,68 @@
+.title{
+    color: black;
+    text-align: center;
+}
+
+.subtitle{
+    color:black;
+    text-align: center;
+}
+
+.choices{
+    color:blanchedalmond;
+    text-align: center;
+    text-shadow: 2cm;
+
+}
+
+.title-cabecalho{
+    background-color: aliceblue;
+}    
+
+.action-title{
+    background-color: aliceblue;
+    color: black;
+}
+
+.comedy-title{
+    background-color: aliceblue;
+    color: black;
+}
+
+.adventure-title{
+    background-color: aliceblue;
+    color: black;
+}
+
+.login-title{
+    padding-top: 2cm;
+    color: aliceblue;
+    text-align: center;
+}
+.login-forms{
+    padding-top: 0.5cm;
+    color: aliceblue;
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+}
+.btn-logar{
+    color:black
+}
+#feedback{
+    color:aliceblue;
+}
+#contents{
+    padding-bottom: 1cm;
+}
+img{
+    width: 4cm;
+    align-self: flex-start;
+    
+}
+
+body{
+    background-color: black;
+}
