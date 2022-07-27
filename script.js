@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function(){
     let username = ''
     let password = ''
 
-    //  Registrar
     btn_register.addEventListener('click', function(){
         if(user.value != '' && pass.value != ''){
             username = user.value
@@ -19,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     });
     
+
     //  Logar
     btn.addEventListener('click', function(){
         if (user.value == username && pass.value == password)
@@ -26,7 +26,9 @@ document.addEventListener("DOMContentLoaded", function(){
             btn.style.backgroundColor = 'green';
             document.querySelector('#feedback').innerHTML = "Logado com sucesso"
             alert("Logado com sucesso!")
+
             window.location.href = "file:///home/luisfelipebarbosa/C%C3%B3digos/CS50/pset8/homepage/filmes.html"
+
         }
         else
         {
