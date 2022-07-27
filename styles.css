@@ -56,7 +56,17 @@
 }
 #contents{
     padding-bottom: 1cm;
+
+
+.movieytb{
+    text-align: center;
 }
+
+#feedback-abaixo{
+    text-align: center;
+    color: black;
+}
+
 img{
     width: 4cm;
     align-self: flex-start;
@@ -65,4 +75,40 @@ img{
 
 body{
     background-color: black;
+
+}
+
+.title{
+    color: aliceblue;
+    text-align: center;
+}
+
+.review-title{
+    padding-top: 0.5cm;
+    color: black;
+    text-align: center;
+}
+.review-form{
+    text-align: center;
+}
+
+.review{
+    background-color: aliceblue;
+}
+.desc{
+    color: aliceblue;
+    text-align: center;
+}
+
+.review-btn{
+    text-align: center;
+    padding-top: 0.5cm;
+}
+
+.review-feedbacks{
+    text-align: center;
+    color: aliceblue;
+}
+.user-text-text{
+    text-align: center;
 }

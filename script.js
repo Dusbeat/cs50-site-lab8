@@ -18,12 +18,17 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     });
     
+
+    //  Logar
     btn.addEventListener('click', function(){
         if (user.value == username && pass.value == password)
         {
             btn.style.backgroundColor = 'green';
             document.querySelector('#feedback').innerHTML = "Logado com sucesso"
             alert("Logado com sucesso!")
+
+            window.location.href = "file:///home/luisfelipebarbosa/C%C3%B3digos/CS50/pset8/homepage/filmes.html"
+
         }
         else
         {
